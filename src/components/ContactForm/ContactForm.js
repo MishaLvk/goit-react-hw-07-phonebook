@@ -68,6 +68,7 @@ export default function ContactForm() {
           required
           value={name}
           onChange={handleChange}
+          placeholder="Name..."
         />
       </Label>
       <Label className="Lable">
@@ -80,6 +81,7 @@ export default function ContactForm() {
           required
           value={phone}
           onChange={handleChange}
+          placeholder="xxx-xx-xx"
         />
       </Label>
 
